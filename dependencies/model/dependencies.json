@@ -1,0 +1,8 @@
+{
+  "pfraces/define": "*",
+  "mujs/mu.is": "*",
+  "mujs/mu.object": "*",
+  "mujs/mu.fn": "*",
+  "mujs/mu.list": "*",
+  "mujs/mu.async": "*"
+}

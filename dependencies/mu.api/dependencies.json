@@ -1,0 +1,6 @@
+{
+  "pfraces/define": "*",
+  "mujs/mu.is": "*",
+  "mujs/mu.fn": "*",
+  "mujs/mu.list": "*"
+}
