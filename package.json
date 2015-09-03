@@ -1,11 +1,16 @@
 {
   "name": "bind-examples",
   "version": "0.1.0",
+  "repository": "https://github.com/pfraces-wip/bind-examples",
+  "license": "MIT",
   "devDependencies": {
     "gulp": "*",
-    "gulp-concat-sourcemap": "*"
+    "gulp-concat-sourcemap": "*",
+    "freddie": "*"
   },
   "scripts": {
-    "concat": "gulp concat"
+    "build":  "gulp concat & gulp copy",
+    "server": "freddie",
+    "dev":    "npm run build && npm run server"
   }
 }
