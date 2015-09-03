@@ -1,2 +1,0 @@
-# mu.object
-Object utilities

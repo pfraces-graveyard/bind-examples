@@ -1,1 +1,7 @@
+# build system
+node_modules
+dependencies
+build
+
+# vim temp files
 *.swp

@@ -1,0 +1,11 @@
+{
+  "name": "bind-examples",
+  "version": "0.1.0",
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-concat-sourcemap": "*"
+  },
+  "scripts": {
+    "concat": "gulp concat"
+  }
+}
