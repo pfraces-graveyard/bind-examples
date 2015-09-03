@@ -7,6 +7,7 @@ define('bind', function (require) {
   var dom    = require('domo').use({
     native   : require('domo.native'),
     val      : require('domo.val'),
+    html     : require('domo.html'),
     onInput  : require('domo.on.input')
   });
 
@@ -44,8 +45,13 @@ define('bind', function (require) {
           index = expr.pop(),
           parent = path(model, expr);
 
-      parent.on(index, $el.val);
-      $el.onInput(parent[index]);
+      if (el.name === 'input') {
+        parent.on(index, $el.val);
+        $el.onInput(parent[index]);
+        return;
+      }
+
+      parent.on(index, $el.html);
     });
 
     return template;

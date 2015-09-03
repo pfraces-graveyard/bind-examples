@@ -8,13 +8,9 @@ define.root(function (require) {
     append  : require('domo.append')
   });
 
-  var weapon = model({
+  dom('body').append(bind('weapons-template', model({
     name: '',
     value: 0,
     damage: 0
-  });
-
-  dom('body')
-  .append(bind('weapons-template', weapon))
-  .append(bind('weapons-template', weapon));
+  })));
 });
