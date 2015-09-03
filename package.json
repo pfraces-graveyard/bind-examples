@@ -6,11 +6,15 @@
   "devDependencies": {
     "gulp": "*",
     "gulp-concat-sourcemap": "*",
+    "gulp-eslint": "*",
+    "del": "*",
+    "udm": "pfraces/udm",
     "freddie": "*"
   },
   "scripts": {
-    "build":  "gulp concat & gulp copy",
-    "server": "freddie",
-    "dev":    "npm run build && npm run server"
+    "update" : "npm update && udm",
+    "build"  : "gulp build",
+    "server" : "freddie",
+    "dev"    : "npm run build && npm run server"
   }
 }

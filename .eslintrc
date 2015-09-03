@@ -1,0 +1,8 @@
+{
+  "globals": {
+    "define": false
+  },
+  "rules": {
+    "no-undef": 2
+  }
+}

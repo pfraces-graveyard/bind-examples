@@ -5,9 +5,8 @@ bind-examples
 git clone https://github.com/pfraces-wip/bind-examples
 cd bind-examples
 
-npm install
-udm
-
+npm run update
 npm run dev
-xdg-open http://localhost:3000
 ```
+
+Open `http://localhost:3000` with your preferred browser
