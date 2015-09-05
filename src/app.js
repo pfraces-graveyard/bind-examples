@@ -5,10 +5,10 @@ define.root(function (require) {
       bind  = require('bind');
 
   var dom   = require('domo').use({
-    append  : require('domo.append')
+    html    : require('domo.html')
   });
 
-  dom('body').append(bind('weapons-template', model({
+  dom('body').html(bind('weapons-template', model({
     name: '',
     value: 0,
     damage: 0
